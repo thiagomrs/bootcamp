@@ -32,6 +32,12 @@ class App extends Component {
 
     }
 
+    toggleHideCompleted() {
+        this.setState({
+            hideCompleted: !this.state.hideCompleted,
+        });
+    }
+
     getTasks() {
         return [
             { _id: 1, text: 'This is task 1' },
