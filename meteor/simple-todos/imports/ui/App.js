@@ -47,7 +47,7 @@ class App extends Component {
                         <input
                             type="text"
                             ref="textInput"
-                            placeHolder="Type to add new tasks"
+                            placeholder="Type to add new tasks"
                         />
                     </form>
                 </header>
