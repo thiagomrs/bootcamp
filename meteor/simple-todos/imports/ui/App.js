@@ -14,7 +14,7 @@ class App extends Component {
         super(props);
 
         this.state = {
-            hideCompleted = false,
+            hideCompleted: false,
         };
     }
 
@@ -29,7 +29,6 @@ class App extends Component {
         });
 
         ReactDOM.findDOMNode(this.refs.textInput).value = '';
-
     }
 
     toggleHideCompleted() {
@@ -65,9 +64,9 @@ class App extends Component {
                             checked={this.state.hideCompleted}
                             onClick={this.toggleHideCompleted.bind(this)}
                         />
-                        Hide Completed Tasks 2
+                        Hide Completed Tasks
                     </label>
-
+                    
                     <form className="new-task" onSubmit={this.handleSubmit.bind(this)}>
                         <input
                             type="text"
