@@ -1,7 +1,0 @@
-Treinamento meteor:
-https://www.meteor.com/tutorials/react/creating-an-app
-
-Commits por seção;
-Chave SSH incluída com sucesso na superman-synergia;
-Conexão funcional com o mongo;
-Passo 8;
