@@ -3,3 +3,6 @@
 ARQUIVO DE SCRIPTS E CONFIGS BASICOS
 
 ************************************
+
+Tratando o erro do Blaze no Meteor: npm i jquery && meteor add jquery
+
